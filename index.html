@@ -9,5 +9,11 @@
 <body>
     <h1>Top Secret Project</h1>
     <p>This is secret! How did you get in here?</p>
+    <button>Don't click this button!</button>
+
+    <script>
+        const btn = document.querySelector('button')
+        btn.addEventListener('click', () => alert(`Not good with directions, are you?`))
+    </script>
 </body>
 </html>
